@@ -1,0 +1,3 @@
+[submodule "raytracer/include/chaos-math"]
+	path = raytracer/include/chaos-math
+	url = git@github.com:2020wmarvil/chaos-math.git
