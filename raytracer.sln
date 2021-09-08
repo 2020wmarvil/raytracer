@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "raytracer", "raytracer\raytracer.vcxproj", "{496712C0-D17F-433C-8EDC-E3462F2E9B0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6DEA0132-B883-4268-9FB0-7A91F59274A6}"
+	ProjectSection(SolutionItems) = preProject
+		raytracer\include\chaos-math\cm\property.hpp = raytracer\include\chaos-math\cm\property.hpp
+		raytracer\include\chaos-math\cm\vec.hpp = raytracer\include\chaos-math\cm\vec.hpp
+		raytracer\include\chaos-math\cm\vec2.hpp = raytracer\include\chaos-math\cm\vec2.hpp
+		raytracer\include\chaos-math\cm\vec3.hpp = raytracer\include\chaos-math\cm\vec3.hpp
+		raytracer\include\chaos-math\cm\vec4.hpp = raytracer\include\chaos-math\cm\vec4.hpp
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{496712C0-D17F-433C-8EDC-E3462F2E9B0B}.Debug|x64.ActiveCfg = Debug|x64
+		{496712C0-D17F-433C-8EDC-E3462F2E9B0B}.Debug|x64.Build.0 = Debug|x64
+		{496712C0-D17F-433C-8EDC-E3462F2E9B0B}.Debug|x86.ActiveCfg = Debug|Win32
+		{496712C0-D17F-433C-8EDC-E3462F2E9B0B}.Debug|x86.Build.0 = Debug|Win32
+		{496712C0-D17F-433C-8EDC-E3462F2E9B0B}.Release|x64.ActiveCfg = Release|x64
+		{496712C0-D17F-433C-8EDC-E3462F2E9B0B}.Release|x64.Build.0 = Release|x64
+		{496712C0-D17F-433C-8EDC-E3462F2E9B0B}.Release|x86.ActiveCfg = Release|Win32
+		{496712C0-D17F-433C-8EDC-E3462F2E9B0B}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2DDA01F3-DB0D-41DB-843F-D5BACAA1D0E0}
+	EndGlobalSection
+EndGlobal

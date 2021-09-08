@@ -1,0 +1,17 @@
+#include <iostream>
+
+#include <vec2.hpp>
+#include <vec3.hpp>
+#include <vec4.hpp>
+
+int main() {
+	cm::vec2<int> v(0, 0);
+
+	std::cout << v << std::endl;
+	std::cout << v.xy << std::endl;
+	std::cout << v.yx << std::endl;
+	std::cout << v.xx << std::endl;
+	std::cout << v.yy << std::endl;
+
+	std::cin.get();
+}
